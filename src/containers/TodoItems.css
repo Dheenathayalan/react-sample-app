@@ -1,0 +1,28 @@
+.Action-btn {
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #50FFFF;
+    border: 2px solid #50FFFF;
+}
+.Action-btn:hover {
+    background-color: #0A6F6F;
+    border: 2px solid #0A6F6F;
+    color: #FFF ;
+    cursor: pointer;
+}
+
+.Item-name {
+    font-size: 20px;
+    color: #e6e3e3;
+}
+
+.Item-name:hover {
+    color: #f1c9c9;
+    cursor: pointer;
+}
+
+.Todo-list {
+    margin-bottom: 10px;
+}
+
