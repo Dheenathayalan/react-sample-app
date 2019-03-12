@@ -1,4 +1,4 @@
-## To Get Started
+## Get Started
  - git clone https://github.com/Dheenathayalan/react-sample-app.git
  - cd react-sample-app
  - npm i
