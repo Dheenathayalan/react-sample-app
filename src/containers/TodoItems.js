@@ -56,14 +56,14 @@ class TodoItems extends Component {
     renderActionSection() {
         if (this.state.isEditing) {
             return (
-                <td>
+                <td className="float-right">
                     <button className="Action-btn" onClick={this.editTask.bind(this)}>Save</button>
                     <button className="Action-btn" onClick={this.setEditState.bind(this, false)}>Cancel</button>
                 </td>
             );
         }
         return (
-            <td>
+            <td className="float-right">
                 <button className="Action-btn" onClick={this.setEditState.bind(this, true)}>Edit</button>
                 <button className="Action-btn" onClick={this.deleteTask.bind(this)}>Delete</button>
             </td>

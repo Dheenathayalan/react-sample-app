@@ -6,8 +6,8 @@ class CreateTodo extends Component {
             <div className="todoList">
               <div className="header">
                 <form onSubmit={this.onSubmit.bind(this)}>
-                  <input type="text" placeholder="Add any task" ref="taskMessage" autoFocus/>
-                  <button>Add Task</button>
+                  <input type="text" placeholder="Task" ref="taskMessage" autoFocus/>
+                  <button>Add</button>
                 </form>
              </div>
             </div>

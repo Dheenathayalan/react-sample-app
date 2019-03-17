@@ -39,17 +39,17 @@ class TodoList extends Component {
         return (
             <div>
                 <div className="App-header">
-                    <h1 className="Title">Active List</h1>
+                    <strong className="Title">ACTIVE</strong>
                 </div>
-                <table>
+                <table className="width-100">
                     <tbody>
                         {this.renderItems('active')}
                     </tbody>
                 </table>
                 <div className="App-header">
-                    <h1 className="Title">Completed List</h1>
+                    <strong className="Title">COMPLETED</strong>
                 </div>
-                <table>
+                <table className="width-100">
                     <tbody>
                         {this.renderItems('completed')}
                     </tbody>

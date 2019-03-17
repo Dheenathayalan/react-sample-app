@@ -24,7 +24,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1 className="Title">Todo List</h1>
+                    <strong className="Title">TODO</strong>
                 </header>
                 <AddTodo
                     createTask={this.createTask.bind(this)}
